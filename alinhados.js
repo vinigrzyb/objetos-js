@@ -19,4 +19,6 @@ function filtraAp(input) {
         return `${cliente.nome} mora na ${cliente.endereco.rua}, ${cliente.endereco.num}.`;
     }
 };
+console.log("dados do cliente:");
+console.log(`O nome do cliente é ${cliente.nome}, tem ${cliente.idade} anos, seu email é ${cliente.email}, e seu telefone é ${cliente.telefones[0]}.`);
 console.log(filtraAp(cliente.endereco.ap));
