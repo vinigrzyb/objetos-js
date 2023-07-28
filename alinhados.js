@@ -22,3 +22,4 @@ function filtraAp(input) {
 console.log("dados do cliente:");
 console.log(`O nome do cliente é ${client.nome}, tem ${client.idade} anos, seu email é ${client.email}, e seu telefone é ${client.telefones[0]}.`);
 console.log(filtraAp(client.endereco.ap));
+
