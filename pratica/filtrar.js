@@ -1,2 +1,6 @@
 const clientes = require("./clientes.json");
-console.log(clientes);
+function filtro(clientes){ //filtra apartanentos que não tem complemento
+    return clientes.filter((cliente) => {
+        return (cliente.endereco.apartamento === true)
+    })    
+}
